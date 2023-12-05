@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "bonemeal-all-flowers",
+  "id": "qol",
   "version": "${version}",
-  "name": "Bonemeal All Flowers",
+  "name": "Quality Of Life Changes",
   "description": "",
   "authors": [ "Arian" ],
   "contact": {},
   "license": "GPL-3.0",
-  "icon": "assets/bonemeal-all-flowers/icon.png",
+  "icon": "assets/qol/icon.png",
   "environment": "*",
   "mixins": [
-    "bonemeal-all-flowers.mixins.json"
+    "qol.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

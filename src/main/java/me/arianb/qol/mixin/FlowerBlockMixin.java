@@ -1,4 +1,4 @@
-package me.arianb.bonemealallflowers.mixin;
+package me.arianb.qol.mixin;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Fertilizable;
@@ -11,6 +11,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import org.spongepowered.asm.mixin.Mixin;
 
+// Makes small flowers have the same bone meal behavior as tall flowers
 @Mixin(FlowerBlock.class)
 public abstract class FlowerBlockMixin implements Fertilizable {
 
